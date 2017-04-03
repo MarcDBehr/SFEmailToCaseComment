@@ -3,7 +3,7 @@
         and will create a case comment with the same information. This is 
         done to provide time based tracking for cases.
         
-        Marc D. Behr
+        Marc D. Behr 
         03-November 2009
         
         Added code to extract only the latest reply from the message 19-May-2011
@@ -68,5 +68,4 @@ trigger AddEmailToCaseNotes on EmailMessage (after insert) {
             }
         }
     }
-    
 }
